@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { Telegraf } = require("telegraf");
 const fs = require('fs');
 const pino = require('pino');
